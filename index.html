@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -14,14 +15,21 @@
 <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 <link rel="stylesheet"  href="design.css">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap" rel="stylesheet">
+
+
+
 </head>
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family:'Fredoka One', cursive;
+  html{
+    scroll-behavior: smooth;
+  }
+body,h1,h2,h3,h4,h5,h6 {font-family: 'PT Sans', sans-serif;
 }
 
-
   body{
-    
+    scroll-behavior: smooth;
   }
 }
 h1{
@@ -30,6 +38,7 @@ h1{
 .bgmimg{
   background-image: url('bgIMG.jpg');
 }
+
 .containerMain{
    margin:0;
    padding:0;
@@ -45,6 +54,7 @@ h1{
   padding-top: 70px;
  
 }
+
 .containerServices{
   width: auto;
   height:auto;
@@ -186,7 +196,7 @@ h1{
   
 <div class="containerAbout" id="about">
   <div class="w3-center">
-    <h3 style="font-family: 'Lobster', cursive;">ORION</h3>
+    <h3 style="font-family: 'Recursive', sans-serif;">ORION</h3>
     <p style="font-variant: small-caps;">--Hoteliers since 2015--</p>
     <h6 class="">Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
   <p>We accept: <i class="fa fa-credit-card w3-large"></i> <i class="fa fa-cc-mastercard w3-large"></i> <i class="fa fa-cc-amex w3-large"></i> <i class="fa fa-cc-cc-visa w3-large"></i><i class="fa fa-cc-paypal w3-large"></i></p>
@@ -201,7 +211,7 @@ h1{
   <header  class="containerBooking w3-content " style="max-width:1500px;">
    
     
-      <div class="w3-container w3-blue ">
+      <div class="w3-container" style="background-color: rgb(0, 209, 70);">
         <h2><i class="fa fa-bed w3-margin-right"></i>Book your space!</h2>
       </div>
       <div class="w3-container w3-white w3-padding-16 ">
@@ -226,7 +236,7 @@ h1{
             <input class="w3-input w3-border" type="number" value="0" name="Kids" min="0" max="6">
             </div>
           </div>
-          <button class="w3-button w3-blue" type="submit"><i class="fa fa-search w3-margin-right"></i> Search availability</button>
+          <button class="w3-button " style="background-color: rgb(0, 209, 70);" type="submit"><i class="fa fa-search w3-margin-right"></i> Search availability</button>
         </form>
       </div>
     </div>
@@ -234,7 +244,7 @@ h1{
   
   </section>
 
-<div class="containerRoom w3-center" style="background-image: url('cover2.jpg');" id="rooms">
+<div class="containerRoom w3-center" style="background-image: url('cover2.jpg');  background: rgba(0, 0, 0, 0.5);" id="rooms">
     <h3 style="font-family: 'Lobster', cursive; color: black;">Rooms</h3>
     <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>
 
@@ -291,7 +301,7 @@ h1{
 
   <div class="containerServices w3-center" id="Services">
     <h3 style="font-family: 'Lobster', cursive;">Our Services</h3>
-    <h6>You can find our hotels anywhere in the world:</h6>
+    <h6>We provide our best services for you</h6>
   </div>
   
   <div class="w3-row-padding w3-padding-16 w3-text-white w3-large">
@@ -338,7 +348,7 @@ h1{
   <div class="bg-contact100" style="background-image: url('rec_desk.jpg'); padding-top: 70px;" id="contact">
     <div class="container-contact100">
       
-        <div class="wrap-contact100" style="background-color: lightgray;">
+        <div class="wrap-contact100" style="background-color: lightgray; opacity:0.9">
             <div class="contact100-pic js-tilt" data-tilt>
                 <img src="img-01.png" alt="IMG">
             </div>
@@ -357,7 +367,7 @@ h1{
                 </div>
 
                 <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-                    <input class="input100" type="text" name="email" placeholder="Email">
+                    <input style="opacity:1"class="input100" type="text" name="email" placeholder="Email">
                     <span class="focus-input100"></span>
                     <span class="symbol-input100">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
